@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/app_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="App Settings"
+        android:visible="true" />
+    <item
+        android:icon="@android:drawable/btn_plus"
+        android:title="Etc." />
+    <item android:title="Etc2" />
+</menu>

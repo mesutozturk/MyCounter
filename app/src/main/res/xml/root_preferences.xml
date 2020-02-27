@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="audioState"
+        android:summaryOff="Audio Off"
+        android:summaryOn="Audio Open"
+        android:title="App Sound" />
+
+    <CheckBoxPreference
+        android:key="vibState"
+        android:summaryOff="Vibrating Close"
+        android:summaryOn="Vibrating Open"
+        android:title="Vibrating" />
+</PreferenceScreen>
